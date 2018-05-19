@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.data_transfer.MainActivity">
+ <TextView
+     android:id="@+id/money"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="卡内余额：xxx        应用余额：yyy"
+     android:textSize="22sp"
+     android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/recharge"
+        android:layout_marginTop="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="前往充值" />
+    <ImageView
+        android:id="@+id/putphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:id="@+id/takephoto"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_take_photo" />
+
+
+
+</RelativeLayout>
